@@ -6,8 +6,6 @@
 // Siga os comentários para implementar cada parte do desafio.
 //Teste larissa
 
-#include <stdio.h>
-
 int main(){
 
     char estado1, estado2;
@@ -40,7 +38,7 @@ int main(){
     printf("Informe o PIB da primeira cidade: \n");
     scanf("%f", &pib1);
 
-    printf("Informe a quantidade de pontos turísticos da primeira cidade: \n");
+    printf("Informe a quantidade de pontos tursticos da primeira cidade: \n");
     scanf("%d", &pontosturisticos1);
 
     // Aqui começa a entrada de dados da carta 2
@@ -71,7 +69,7 @@ int main(){
     densidadePopulacional2 = populacao2 / area2;
     pibpercapta2 = pib2 / populacao2;
 
-    // Aqui começarei a exibição dos dados para o usuário
+    // Aqui comçarei a exibição dos dados para o usuário
     printf("\nCarta 1\n");
     printf("Estado: %c\n", estado1);
     printf("Código da carta: %s\n", codigo1);
